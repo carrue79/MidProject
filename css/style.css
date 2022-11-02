@@ -1,0 +1,142 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    grid-column: auto;
+}
+.nav-link {
+    font-size: 15px;
+}
+.navbar-brand{
+    color: #fff;
+}
+.youtube{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.animation-1 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.animation-1 span {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    color: rgb(38, 39, 66);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+.btn{
+    display: flex;
+    position: absolute;
+    bottom: 70%;
+    left: 46.5%;
+    color: #000;
+    font-size: 15px;
+}
+.Fetch{
+    font-size: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.author{
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.TextHeader {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(38, 39, 66);
+    padding: 70px 0 50px 0;
+    text-align: center;
+}
+
+.Maintext {
+    font-size: 30px;
+    font-weight: bold;
+}
+.MainText2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MiddleText {
+    color: #4b3f55;
+    font-weight: bold;
+    font-size: 13px;
+    border-top: solid 3px gray;
+    border-bottom: solid 3px gray;
+}
+.MiddleText2 {
+    color: #4b3f55;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: solid 3px gray;
+}
+.MiddleP {
+    padding: 120px 30px 0 30px;
+    font-size: 20px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    line-height: 74px;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: royalblue;
+    border-bottom: 2px solid royalblue;
+    padding: 12px 0;
+}
+
+.card-title span {
+    font-size: 12px;
+    font-weight: bold;
+    color: royalblue;
+}
+
+.card-body {
+    padding: 0;
+    color: #4b3f55;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #4b3f55;
+}
+.Footer-text {
+    color: #fff;
+    font-size: 14px;
+    padding: 30px 0;
+    margin-top: 120px;
+}
+.phone{
+    text-decoration: none;
+    color: #fff;
+}
